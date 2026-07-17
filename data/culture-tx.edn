@@ -1,0 +1,14 @@
+;; data/culture-tx.edn — DataScript tx-data derived from src/culture/facts.cljc
+;; `culture.facts/catalog` (ADR-2607171400 addendum 2, Wave 1 country-level).
+;; Same shape across every cloud-itonami-iso3166-* sibling. Do not hand-edit;
+;; regenerate from the catalog.
+
+[
+#:culture{:id "nam.dish.kapana", :name "Kapana", :country "NAM", :kind :dish, :summary "Grilled beef street-food dish in Namibia, popular in Windhoek's Katutura township markets.", :url "https://en.wikipedia.org/wiki/Kapana", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "nam.dish.vetkoek", :name "Vetkoek", :country "NAM", :kind :dish, :summary "Traditional fried-dough bread, listed among indigenous dishes in the Namibian cuisine article.", :url "https://en.wikipedia.org/wiki/Namibian_cuisine", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:url "https://en.wikipedia.org/wiki/Mopane_worm", :id "nam.dish.mopane-worm", :kind :dish, :name-local "Omagungu", :country "NAM", :retrieved-at "2026-07-17", :summary "Edible caterpillar (Gonimbrasia belina) consumed and commercially traded in Namibia among other southern African countries, known locally as omagungu (Ovambo) or oshuungu (Oshikwanyama).", :name "Mopane worm", :url-provenance :wikipedia-en}
+#:culture{:id "nam.beverage.oshikundu", :name "Oshikundu", :country "NAM", :kind :beverage, :summary "Traditional Namibian drink made from fermented millet flour, brans and malted sorghum flour mixed with tepid water, originating from the Aawambo people of northern Namibia.", :url "https://en.wikipedia.org/wiki/Oshikundu", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "nam.beverage.windhoek-lager", :name "Windhoek Lager", :country "NAM", :kind :beverage, :summary "Beer produced by Namibia Breweries Limited, founded in Windhoek, Namibia in 1920 and now owned by Heineken Beverages as of 2023.", :url "https://en.wikipedia.org/wiki/Windhoek_Lager", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:url "https://en.wikipedia.org/wiki/Herero_people", :id "nam.craft.herero-dress", :kind :craft, :name-local "Ohorokova", :country "NAM", :retrieved-at "2026-07-17", :summary "Distinctive Victorian-style floor-length gown (ohorokova) worn by Herero women in Namibia, with a horizontal horned headdress (otjikaiva) paying homage to cattle central to Herero life.", :name "Herero dress", :url-provenance :wikipedia-en}
+#:culture{:id "nam.heritage.twyfelfontein", :name "Twyfelfontein", :country "NAM", :kind :heritage, :summary "Ancient rock art site in Namibia's Kunene Region containing over 2,500 engravings created by hunter-gatherers and Khoikhoi herders over 6,000 years; became Namibia's first UNESCO World Heritage Site in 2007.", :url "https://en.wikipedia.org/wiki/Twyfelfontein", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+]
