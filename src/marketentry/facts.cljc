@@ -201,25 +201,7 @@
           :board-routing-threshold-matrix {:category-1 {:goods 25000000 :works 35000000 :consultancy-services 20000000 :non-consultancy-services 15000000}
                                             :category-2 {:goods 20000000 :works 30000000 :consultancy-services 15000000 :non-consultancy-services 10000000}
                                             :category-3 {:goods 15000000 :works 20000000 :consultancy-services 10000000 :non-consultancy-services 5000000}}
-          :board-routing-provenance "https://www.cpbn.com.na/assets/docs/PPA_Regulations.pdf"}
-   "USA" {:name "United States"
-          :owner-authority "U.S. General Services Administration (GSA) / SAM.gov"
-          :legal-basis "Federal Acquisition Regulation (FAR); System for Award Management"
-          :national-spec "SAM.gov entity registration + NAICS self-certification"
-          :provenance "https://sam.gov/"
-          :required-evidence ["EIN record"
-                              "SAM.gov registration record"
-                              "State business registration record"
-                              "Authorized-representative record"]}
-   "DEU" {:name "Germany"
-          :owner-authority "Beschaffungsamt des BMI / e-Vergabe platforms"
-          :legal-basis "Gesetz gegen Wettbewerbsbeschränkungen (GWB) / VgV"
-          :national-spec "e-Vergabe supplier registration under EU procurement directives"
-          :provenance "https://www.evergabe-online.de/"
-          :required-evidence ["Handelsregister extract"
-                              "e-Vergabe registration record"
-                              "USt-IdNr record"
-                              "Authorized-representative record"]}})
+          :board-routing-provenance "https://www.cpbn.com.na/assets/docs/PPA_Regulations.pdf"}})
 
 (defn spec-basis
   "The jurisdiction's requirement map, or nil -- nil means NO spec-basis,

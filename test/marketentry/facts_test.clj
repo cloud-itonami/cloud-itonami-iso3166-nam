@@ -29,10 +29,10 @@
     (is (nil? (facts/required-evidence-satisfied? "ATL" all)))))
 
 (deftest coverage-is-honest
-  (let [c (facts/coverage ["NAM" "USA" "ATL"])]
+  (let [c (facts/coverage ["NAM" "ATL" "ZZZ"])]
     (is (= 3 (:requested c)))
-    (is (= 2 (:covered c)))
-    (is (= ["ATL"] (:missing-jurisdictions c)))))
+    (is (= 1 (:covered c)))
+    (is (= ["ATL" "ZZZ"] (:missing-jurisdictions c)))))
 
 (deftest board-routing-spec-basis-threshold-matrix
   (let [br (facts/board-routing-spec-basis "NAM")]
