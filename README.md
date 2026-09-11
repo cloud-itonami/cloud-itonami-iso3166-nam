@@ -110,7 +110,7 @@ as every `cloud-itonami-iso3166-*` sibling in this fleet:
   own definitions but its substantive numeric criteria were not
   independently read, so it is not modeled as a spec-basis-backed
   check).
-- `src/statute/facts.cljc` -- general-law catalog: the Companies Act,
+- `src/statute/facts.cljk` -- general-law catalog: the Companies Act,
   2004 (Act No. 28 of 2004, confirmed via the Government Gazette No.
   7874 Amendment Act text rather than NamibLII's own listing, which did
   not surface it); the Labour Act, 2007 (Act 11 of 2007); and the
@@ -158,7 +158,7 @@ Alongside the market-entry / statute catalogs, this repo carries a
 `com-junkawasaki/root`) — national dishes, protected products, beverages,
 crafts, festivals and heritage sites for Namibia:
 
-- `src/culture/facts.cljc` — the catalog, source of truth (keyed by
+- `src/culture/facts.cljk` — the catalog, source of truth (keyed by
   uppercase ISO3, mirroring `statute.facts`).
 - `schema/culture.edn` — DataScript schema.
 - `data/culture-tx.edn` — derived DataScript tx-data (regenerated from
